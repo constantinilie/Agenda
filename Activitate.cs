@@ -13,24 +13,29 @@ namespace Agenda
         public string Descriere { get; set; } // Descrierea activitatii
         public string Tip { get; set; } // Tipul activitatii (ex: Scoala, munca, recreere)
         public DateTime DataOra { get; set; } // data si ora
+        public int nrActivitate { get; set; }
 
 
-        public Activitate(string nume, string descriere, string tip, DateTime dataOra)
+        public Activitate(string nume, string descriere, string tip, DateTime dataOra) //Constructor cu parametri
         {
             Nume = nume;
             Descriere = descriere;
             Tip = tip;
             DataOra = dataOra;
         }
-
-        public void AfisareActivitate()
+        public Activitate() //Constructor fara parametri
         {
-            Console.WriteLine($"Nume:\t{Nume}");
-            Console.WriteLine($"Descriere:{Descriere}");
-            Console.WriteLine($"Data si ora :{DataOra}");
-            Console.WriteLine($"Tipul:\t{Tip}");
+            Nume = Descriere = Tip = string.Empty;
+            
         }
 
+        public string InfoActivitate()
+        {
+            string info = $"Nume:{Nume ?? "NECUNOSCUT"}\nDescriere:{Descriere ?? "NECUNOSCUT"}\nTip:{Tip ?? "NECUNOSCUT"}\nData si ora:{DataOra}\n";
+            return info;
+        }
         
+
+
     }
 }
