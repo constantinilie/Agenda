@@ -43,13 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Activitate.cs" />
-    <Compile Include="AdministrareActivitati.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Activitati\Activitati.csproj">
+      <Project>{8b3fed38-ab2b-4862-8e11-d175750801f3}</Project>
+      <Name>Activitati</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NivelStocareDate\NivelStocareDate.csproj">
+      <Project>{49ae7026-b7a6-4035-890f-27b0a7308f24}</Project>
+      <Name>NivelStocareDate</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

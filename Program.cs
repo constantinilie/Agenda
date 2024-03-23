@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+using NivelStocareDate;
+using Activitati;
 namespace Agenda
 {
     internal class Program
@@ -23,7 +20,7 @@ namespace Agenda
                 Console.WriteLine("S.Salvare activitate in vector de obiecte");
                 Console.WriteLine("K.Cauta o activitate dupa tip");
                 Console.WriteLine("N.Cauta o activitate dupa nume");
-                Console.WriteLine("X.Inchidere program");
+                Console.WriteLine("X.Inchidere program"); 
                 Console.WriteLine("Alegeti o optiune:");
                 optiune = Console.ReadLine();
                 switch (optiune.ToUpper())
