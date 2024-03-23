@@ -10,8 +10,10 @@ namespace Agenda
     {
         static void Main(string[] args)
         {
-            int a;
-            Console.WriteLine("ABC");
+            Activitate act = new Activitate("Teme","scrie la mate", "Scoala",DateTime.Now);
+            act.AfisareActivitate();
+            Console.ReadKey();
         }
     }
+    
 }
