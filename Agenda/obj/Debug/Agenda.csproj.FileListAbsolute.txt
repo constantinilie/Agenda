@@ -1,0 +1,7 @@
+C:\Users\iliea\source\repos\Agenda\bin\Debug\Agenda.exe.config
+C:\Users\iliea\source\repos\Agenda\bin\Debug\Agenda.exe
+C:\Users\iliea\source\repos\Agenda\bin\Debug\Agenda.pdb
+C:\Users\iliea\source\repos\Agenda\obj\Debug\Agenda.csproj.AssemblyReference.cache
+C:\Users\iliea\source\repos\Agenda\obj\Debug\Agenda.csproj.CoreCompileInputs.cache
+C:\Users\iliea\source\repos\Agenda\obj\Debug\Agenda.exe
+C:\Users\iliea\source\repos\Agenda\obj\Debug\Agenda.pdb
